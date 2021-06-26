@@ -1,0 +1,149 @@
+body
+{
+    margin: 0px;
+    background-color: #EAE2B7;
+}
+.navBar
+{
+    background-color: #003049;
+}
+.Bar
+{
+    max-width: 1366px;
+    margin:auto;
+    height:80px;
+    color:#FCBF49; 
+    display:flex; 
+    align-items:center;
+}
+.HomeLink
+{
+    text-decoration: none;
+    color: inherit;
+}
+.submain
+{
+    background-color: #003049; 
+    max-width: 1100px;
+    max-height: 280px;
+    color:  #FCBF49;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto ;
+}
+.main 
+{
+    max-width: 1100px;
+    max-height: auto;
+    color:  #FCBF49;
+    display: flex;
+    align-items:center;
+    align-content: space-between;
+    justify-content:space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.image
+{
+    max-width: 350px;
+    max-height: 350px;
+}
+.disc
+{
+    background-color: #003049; 
+    max-width: 350px;
+    max-height: 300px;
+    color:  #FCBF49;
+    display: flex;
+    align-items:flex-start;
+    flex-direction:column;
+}
+.button
+{
+    margin: 10px; 
+    color: inherit; 
+    background-color: #003049;
+    border: none;
+    cursor: pointer;
+}
+.footer
+{
+    background-color: #003049;
+    max-width: 1366px;
+    margin:auto;
+    height: auto;
+    color:#FCBF49; 
+    display:flex; 
+    align-items:center;  
+    padding: 20px; 
+}
+.input
+{
+    background-color: #003049;
+    border-color:  #EAE2B7;
+    border-radius: 5px;
+    padding: 10px;
+    border-style: solid;
+    margin-left: 10px ;
+    color:#FCBF49 ;
+}
+::placeholder { 
+    color: #FCBF49;
+    opacity: 1; 
+}
+.subs
+{
+    background-color: #FCBF49;
+    border-color:  #FCBF49;
+    border-radius: 5px;
+    padding: 10px;
+    border-style: solid;
+    margin-left: 10px ;
+    color:#003049 ;
+    cursor: pointer;
+}
+.footer1
+{
+    background-color: #D62828;
+    max-width: 1366px;
+    margin:auto;
+    height: auto;
+    color:#FAFAFA; 
+    display:flex; 
+    align-items:center; 
+}
+.ReadMoreMain
+{
+    max-width: 1100px;
+    max-height: 600px;
+    color:  #FCBF49;
+    display: flex;
+    align-items:center;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;  
+}
+.Read{
+    flex-grow: 1;
+    background-color: #003049;
+    max-height: 600px;
+    padding: 20px;
+    align-items: center;
+    align-content: center;
+    border-radius: 10px;
+}
+.image1
+{
+    max-width: 500px;
+    max-height: 600px;
+    margin: 20px;
+    border-radius: 10px;
+}
